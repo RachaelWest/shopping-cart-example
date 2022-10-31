@@ -1,0 +1,161 @@
+/* FONT IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+/* GENERAL STYLING */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Rubik;
+  margin-bottom: 5px;
+}
+
+.appContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+
+/* PRODUCTS */
+.productsContainer {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: top;
+  justify-content: space-around;
+}
+
+.productCard {
+  border: 2px black solid;  
+  border-radius: 10px;
+  width: 300px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.productCard img {
+  width: 100%; /*makes it 100% the width of its parent - productCard */
+
+}
+
+.productInfo {
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+.productTitle {
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/* ADD TO CART BUTTON */
+.addButton {
+  width: 50%;
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+/* QUANTITY BUTTONS */
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* CART ITEMS */
+.shoppingCart {
+  width: 25%;
+  border: 2px solid black;
+}
+
+.cartCard {
+  border: 2px black solid;  
+  border-radius: 10px;
+  width: 150px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.cartCard img {
+  width: 100%; /*makes it 100% the width of its parent - productCard */
+
+}
+
+.cartItemInfo {
+  padding: 2.5px;
+  background-color: black;
+  color: white;
+  font-size: x-small;
+}
+
+.cartItemTitle {
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.cartQuantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-small;
+}
+
+.cartActionBtn {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(242, 255, 58);
+  border-radius: 50%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.shoppingCartFooter {
+  width: 100%;
+  border: 1px solid black;
+}
+
+
+
+/* CHECKOUT BUTTON */
+.checkout {
+  width: 100%;
+  background-color: rgb(242, 255, 58) ;
+  border: 1px solid black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.checkout:hover {
+  background-color: aqua;
+}
